@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BFD6309181E468FB21E06D3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E96525577C044390A20E8F1D /* libPods.a */; };
 		9F6236641823C8050075DFD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6236631823C8050075DFD2 /* Foundation.framework */; };
 		9F6236661823C8050075DFD2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6236651823C8050075DFD2 /* CoreGraphics.framework */; };
 		9F6236681823C8050075DFD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6236671823C8050075DFD2 /* UIKit.framework */; };
-		9F62366E1823C8050075DFD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F62366C1823C8050075DFD2 /* InfoPlist.strings */; };
-		9F6236701823C8050075DFD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F62366F1823C8050075DFD2 /* main.m */; };
-		9F6236741823C8050075DFD2 /* KOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6236731823C8050075DFD2 /* KOAppDelegate.m */; };
-		9F6236771823C8050075DFD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6236751823C8050075DFD2 /* Main.storyboard */; };
-		9F62367A1823C8050075DFD2 /* KOMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6236791823C8050075DFD2 /* KOMasterViewController.m */; };
-		9F62367D1823C8050075DFD2 /* KODetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F62367C1823C8050075DFD2 /* KODetailViewController.m */; };
-		9F62367F1823C8050075DFD2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F62367E1823C8050075DFD2 /* Images.xcassets */; };
 		9F6236861823C8050075DFD2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6236851823C8050075DFD2 /* XCTest.framework */; };
 		9F6236871823C8050075DFD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6236631823C8050075DFD2 /* Foundation.framework */; };
 		9F6236881823C8050075DFD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6236671823C8050075DFD2 /* UIKit.framework */; };
 		9F6236901823C8050075DFD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F62368E1823C8050075DFD2 /* InfoPlist.strings */; };
 		9F6236921823C8050075DFD2 /* FMDBStoreGeneratorSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6236911823C8050075DFD2 /* FMDBStoreGeneratorSampleTests.m */; };
+		9F6236AC1823C8990075DFD2 /* KOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F62369D1823C8990075DFD2 /* KOAppDelegate.m */; };
+		9F6236AF1823C8990075DFD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F6236A31823C8990075DFD2 /* InfoPlist.strings */; };
+		9F6236B01823C8990075DFD2 /* FMDBStoreGeneratorSample-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F6236A51823C8990075DFD2 /* FMDBStoreGeneratorSample-Info.plist */; };
+		9F6236B11823C8990075DFD2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F6236A71823C8990075DFD2 /* Images.xcassets */; };
+		9F6236B21823C8990075DFD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6236A81823C8990075DFD2 /* main.m */; };
+		9F6236C61823C94B0075DFD2 /* KODatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6236B71823C94B0075DFD2 /* KODatabaseManager.m */; };
+		9F6236C71823C94B0075DFD2 /* KOStoreFmdbBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6236B91823C94B0075DFD2 /* KOStoreFmdbBase.m */; };
+		9F6236C81823C94B0075DFD2 /* KOTransactionService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6236BB1823C94B0075DFD2 /* KOTransactionService.m */; };
+		9F6236C91823C94B0075DFD2 /* KOOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6236BE1823C94B0075DFD2 /* KOOrder.m */; };
+		9F6236CA1823C94B0075DFD2 /* KOOrderDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6236C01823C94B0075DFD2 /* KOOrderDetail.m */; };
+		9F6236CB1823C94B0075DFD2 /* KOOrderDetailStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6236C31823C94B0075DFD2 /* KOOrderDetailStore.m */; };
+		9F6236CC1823C94B0075DFD2 /* KOOrderStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6236C51823C94B0075DFD2 /* KOOrderStore.m */; };
+		9F96E12B1826B4C70027EFC1 /* KOOrderService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F96E12A1826B4C70027EFC1 /* KOOrderService.m */; };
+		9F96E12D1826B8D60027EFC1 /* Sample.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 9F6236B41823C8FA0075DFD2 /* Sample.sqlite */; };
+		9F96E13418293D7B0027EFC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F96E13318293D7B0027EFC1 /* Main.storyboard */; };
+		9F96E13718293D9F0027EFC1 /* KOMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F96E13618293D9F0027EFC1 /* KOMainController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,27 +45,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4586197156954D88997C95E5 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		9F6236601823C8050075DFD2 /* FMDBStoreGeneratorSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMDBStoreGeneratorSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F6236631823C8050075DFD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9F6236651823C8050075DFD2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		9F6236671823C8050075DFD2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		9F62366B1823C8050075DFD2 /* FMDBStoreGeneratorSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FMDBStoreGeneratorSample-Info.plist"; sourceTree = "<group>"; };
-		9F62366D1823C8050075DFD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9F62366F1823C8050075DFD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9F6236711823C8050075DFD2 /* FMDBStoreGeneratorSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FMDBStoreGeneratorSample-Prefix.pch"; sourceTree = "<group>"; };
-		9F6236721823C8050075DFD2 /* KOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOAppDelegate.h; sourceTree = "<group>"; };
-		9F6236731823C8050075DFD2 /* KOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOAppDelegate.m; sourceTree = "<group>"; };
-		9F6236761823C8050075DFD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9F6236781823C8050075DFD2 /* KOMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOMasterViewController.h; sourceTree = "<group>"; };
-		9F6236791823C8050075DFD2 /* KOMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOMasterViewController.m; sourceTree = "<group>"; };
-		9F62367B1823C8050075DFD2 /* KODetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KODetailViewController.h; sourceTree = "<group>"; };
-		9F62367C1823C8050075DFD2 /* KODetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KODetailViewController.m; sourceTree = "<group>"; };
-		9F62367E1823C8050075DFD2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9F6236841823C8050075DFD2 /* FMDBStoreGeneratorSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMDBStoreGeneratorSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F6236851823C8050075DFD2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		9F62368D1823C8050075DFD2 /* FMDBStoreGeneratorSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FMDBStoreGeneratorSampleTests-Info.plist"; sourceTree = "<group>"; };
 		9F62368F1823C8050075DFD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9F6236911823C8050075DFD2 /* FMDBStoreGeneratorSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDBStoreGeneratorSampleTests.m; sourceTree = "<group>"; };
+		9F62369C1823C8990075DFD2 /* KOAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOAppDelegate.h; sourceTree = "<group>"; };
+		9F62369D1823C8990075DFD2 /* KOAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOAppDelegate.m; sourceTree = "<group>"; };
+		9F6236A41823C8990075DFD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9F6236A51823C8990075DFD2 /* FMDBStoreGeneratorSample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FMDBStoreGeneratorSample-Info.plist"; sourceTree = "<group>"; };
+		9F6236A61823C8990075DFD2 /* FMDBStoreGeneratorSample-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMDBStoreGeneratorSample-Prefix.pch"; sourceTree = "<group>"; };
+		9F6236A71823C8990075DFD2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9F6236A81823C8990075DFD2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F6236B41823C8FA0075DFD2 /* Sample.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sample.sqlite; sourceTree = "<group>"; };
+		9F6236B61823C94B0075DFD2 /* KODatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KODatabaseManager.h; sourceTree = "<group>"; };
+		9F6236B71823C94B0075DFD2 /* KODatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KODatabaseManager.m; sourceTree = "<group>"; };
+		9F6236B81823C94B0075DFD2 /* KOStoreFmdbBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOStoreFmdbBase.h; sourceTree = "<group>"; };
+		9F6236B91823C94B0075DFD2 /* KOStoreFmdbBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOStoreFmdbBase.m; sourceTree = "<group>"; };
+		9F6236BA1823C94B0075DFD2 /* KOTransactionService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOTransactionService.h; sourceTree = "<group>"; };
+		9F6236BB1823C94B0075DFD2 /* KOTransactionService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOTransactionService.m; sourceTree = "<group>"; };
+		9F6236BD1823C94B0075DFD2 /* KOOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOOrder.h; sourceTree = "<group>"; };
+		9F6236BE1823C94B0075DFD2 /* KOOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOOrder.m; sourceTree = "<group>"; };
+		9F6236BF1823C94B0075DFD2 /* KOOrderDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOOrderDetail.h; sourceTree = "<group>"; };
+		9F6236C01823C94B0075DFD2 /* KOOrderDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOOrderDetail.m; sourceTree = "<group>"; };
+		9F6236C21823C94B0075DFD2 /* KOOrderDetailStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOOrderDetailStore.h; sourceTree = "<group>"; };
+		9F6236C31823C94B0075DFD2 /* KOOrderDetailStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOOrderDetailStore.m; sourceTree = "<group>"; };
+		9F6236C41823C94B0075DFD2 /* KOOrderStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOOrderStore.h; sourceTree = "<group>"; };
+		9F6236C51823C94B0075DFD2 /* KOOrderStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOOrderStore.m; sourceTree = "<group>"; };
+		9F96E1291826B4C70027EFC1 /* KOOrderService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOOrderService.h; sourceTree = "<group>"; };
+		9F96E12A1826B4C70027EFC1 /* KOOrderService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOOrderService.m; sourceTree = "<group>"; };
+		9F96E13318293D7B0027EFC1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = FMDBStoreGeneratorSample/Controls/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		9F96E13518293D9F0027EFC1 /* KOMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOMainController.h; sourceTree = "<group>"; };
+		9F96E13618293D9F0027EFC1 /* KOMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOMainController.m; sourceTree = "<group>"; };
+		E96525577C044390A20E8F1D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +93,7 @@
 				9F6236661823C8050075DFD2 /* CoreGraphics.framework in Frameworks */,
 				9F6236681823C8050075DFD2 /* UIKit.framework in Frameworks */,
 				9F6236641823C8050075DFD2 /* Foundation.framework in Frameworks */,
+				3BFD6309181E468FB21E06D3 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +117,7 @@
 				9F62368B1823C8050075DFD2 /* FMDBStoreGeneratorSampleTests */,
 				9F6236621823C8050075DFD2 /* Frameworks */,
 				9F6236611823C8050075DFD2 /* Products */,
+				4586197156954D88997C95E5 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +137,7 @@
 				9F6236651823C8050075DFD2 /* CoreGraphics.framework */,
 				9F6236671823C8050075DFD2 /* UIKit.framework */,
 				9F6236851823C8050075DFD2 /* XCTest.framework */,
+				E96525577C044390A20E8F1D /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,28 +145,15 @@
 		9F6236691823C8050075DFD2 /* FMDBStoreGeneratorSample */ = {
 			isa = PBXGroup;
 			children = (
-				9F6236721823C8050075DFD2 /* KOAppDelegate.h */,
-				9F6236731823C8050075DFD2 /* KOAppDelegate.m */,
-				9F6236751823C8050075DFD2 /* Main.storyboard */,
-				9F6236781823C8050075DFD2 /* KOMasterViewController.h */,
-				9F6236791823C8050075DFD2 /* KOMasterViewController.m */,
-				9F62367B1823C8050075DFD2 /* KODetailViewController.h */,
-				9F62367C1823C8050075DFD2 /* KODetailViewController.m */,
-				9F62367E1823C8050075DFD2 /* Images.xcassets */,
-				9F62366A1823C8050075DFD2 /* Supporting Files */,
+				9F96E1281826B4C70027EFC1 /* Services */,
+				9F6236BC1823C94B0075DFD2 /* Models */,
+				9F6236C11823C94B0075DFD2 /* Stores */,
+				9F62369B1823C8990075DFD2 /* Controls */,
+				9F6236A91823C8990075DFD2 /* Views */,
+				9F6236B51823C94B0075DFD2 /* fmdb */,
+				9F6236A21823C8990075DFD2 /* Supporting Files */,
 			);
 			path = FMDBStoreGeneratorSample;
-			sourceTree = "<group>";
-		};
-		9F62366A1823C8050075DFD2 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				9F62366B1823C8050075DFD2 /* FMDBStoreGeneratorSample-Info.plist */,
-				9F62366C1823C8050075DFD2 /* InfoPlist.strings */,
-				9F62366F1823C8050075DFD2 /* main.m */,
-				9F6236711823C8050075DFD2 /* FMDBStoreGeneratorSample-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		9F62368B1823C8050075DFD2 /* FMDBStoreGeneratorSampleTests */ = {
@@ -157,6 +174,82 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9F62369B1823C8990075DFD2 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				9F62369C1823C8990075DFD2 /* KOAppDelegate.h */,
+				9F62369D1823C8990075DFD2 /* KOAppDelegate.m */,
+				9F96E13518293D9F0027EFC1 /* KOMainController.h */,
+				9F96E13618293D9F0027EFC1 /* KOMainController.m */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		9F6236A21823C8990075DFD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F6236B41823C8FA0075DFD2 /* Sample.sqlite */,
+				9F6236A31823C8990075DFD2 /* InfoPlist.strings */,
+				9F6236A51823C8990075DFD2 /* FMDBStoreGeneratorSample-Info.plist */,
+				9F6236A61823C8990075DFD2 /* FMDBStoreGeneratorSample-Prefix.pch */,
+				9F6236A71823C8990075DFD2 /* Images.xcassets */,
+				9F6236A81823C8990075DFD2 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F6236A91823C8990075DFD2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9F96E13318293D7B0027EFC1 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9F6236B51823C94B0075DFD2 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				9F6236B61823C94B0075DFD2 /* KODatabaseManager.h */,
+				9F6236B71823C94B0075DFD2 /* KODatabaseManager.m */,
+				9F6236B81823C94B0075DFD2 /* KOStoreFmdbBase.h */,
+				9F6236B91823C94B0075DFD2 /* KOStoreFmdbBase.m */,
+				9F6236BA1823C94B0075DFD2 /* KOTransactionService.h */,
+				9F6236BB1823C94B0075DFD2 /* KOTransactionService.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		9F6236BC1823C94B0075DFD2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9F6236BD1823C94B0075DFD2 /* KOOrder.h */,
+				9F6236BE1823C94B0075DFD2 /* KOOrder.m */,
+				9F6236BF1823C94B0075DFD2 /* KOOrderDetail.h */,
+				9F6236C01823C94B0075DFD2 /* KOOrderDetail.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9F6236C11823C94B0075DFD2 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				9F6236C21823C94B0075DFD2 /* KOOrderDetailStore.h */,
+				9F6236C31823C94B0075DFD2 /* KOOrderDetailStore.m */,
+				9F6236C41823C94B0075DFD2 /* KOOrderStore.h */,
+				9F6236C51823C94B0075DFD2 /* KOOrderStore.m */,
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		9F96E1281826B4C70027EFC1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9F96E1291826B4C70027EFC1 /* KOOrderService.h */,
+				9F96E12A1826B4C70027EFC1 /* KOOrderService.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,9 +257,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F6236951823C8050075DFD2 /* Build configuration list for PBXNativeTarget "FMDBStoreGeneratorSample" */;
 			buildPhases = (
+				36757B8F4CF649A297E77364 /* Check Pods Manifest.lock */,
 				9F62365C1823C8050075DFD2 /* Sources */,
 				9F62365D1823C8050075DFD2 /* Frameworks */,
 				9F62365E1823C8050075DFD2 /* Resources */,
+				0AE1938B1AE44364A5439DB1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,9 +329,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F62367F1823C8050075DFD2 /* Images.xcassets in Resources */,
-				9F62366E1823C8050075DFD2 /* InfoPlist.strings in Resources */,
-				9F6236771823C8050075DFD2 /* Main.storyboard in Resources */,
+				9F96E12D1826B8D60027EFC1 /* Sample.sqlite in Resources */,
+				9F96E13418293D7B0027EFC1 /* Main.storyboard in Resources */,
+				9F6236B11823C8990075DFD2 /* Images.xcassets in Resources */,
+				9F6236AF1823C8990075DFD2 /* InfoPlist.strings in Resources */,
+				9F6236B01823C8990075DFD2 /* FMDBStoreGeneratorSample-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,15 +347,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0AE1938B1AE44364A5439DB1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36757B8F4CF649A297E77364 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9F62365C1823C8050075DFD2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F6236741823C8050075DFD2 /* KOAppDelegate.m in Sources */,
-				9F6236701823C8050075DFD2 /* main.m in Sources */,
-				9F62367A1823C8050075DFD2 /* KOMasterViewController.m in Sources */,
-				9F62367D1823C8050075DFD2 /* KODetailViewController.m in Sources */,
+				9F6236AC1823C8990075DFD2 /* KOAppDelegate.m in Sources */,
+				9F6236C91823C94B0075DFD2 /* KOOrder.m in Sources */,
+				9F6236B21823C8990075DFD2 /* main.m in Sources */,
+				9F6236C81823C94B0075DFD2 /* KOTransactionService.m in Sources */,
+				9F6236C61823C94B0075DFD2 /* KODatabaseManager.m in Sources */,
+				9F96E13718293D9F0027EFC1 /* KOMainController.m in Sources */,
+				9F96E12B1826B4C70027EFC1 /* KOOrderService.m in Sources */,
+				9F6236CA1823C94B0075DFD2 /* KOOrderDetail.m in Sources */,
+				9F6236CC1823C94B0075DFD2 /* KOOrderStore.m in Sources */,
+				9F6236CB1823C94B0075DFD2 /* KOOrderDetailStore.m in Sources */,
+				9F6236C71823C94B0075DFD2 /* KOStoreFmdbBase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,26 +418,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9F62366C1823C8050075DFD2 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9F62366D1823C8050075DFD2 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		9F6236751823C8050075DFD2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9F6236761823C8050075DFD2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9F62368E1823C8050075DFD2 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				9F62368F1823C8050075DFD2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9F6236A31823C8990075DFD2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F6236A41823C8990075DFD2 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -382,12 +511,13 @@
 		};
 		9F6236961823C8050075DFD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4586197156954D88997C95E5 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FMDBStoreGeneratorSample/FMDBStoreGeneratorSample-Prefix.pch";
-				INFOPLIST_FILE = "FMDBStoreGeneratorSample/FMDBStoreGeneratorSample-Info.plist";
+				GCC_PREFIX_HEADER = "FMDBStoreGeneratorSample/Supporting Files/FMDBStoreGeneratorSample-Prefix.pch";
+				INFOPLIST_FILE = "FMDBStoreGeneratorSample/Supporting Files/FMDBStoreGeneratorSample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -395,12 +525,13 @@
 		};
 		9F6236971823C8050075DFD2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4586197156954D88997C95E5 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FMDBStoreGeneratorSample/FMDBStoreGeneratorSample-Prefix.pch";
-				INFOPLIST_FILE = "FMDBStoreGeneratorSample/FMDBStoreGeneratorSample-Info.plist";
+				GCC_PREFIX_HEADER = "FMDBStoreGeneratorSample/Supporting Files/FMDBStoreGeneratorSample-Prefix.pch";
+				INFOPLIST_FILE = "FMDBStoreGeneratorSample/Supporting Files/FMDBStoreGeneratorSample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -467,6 +598,7 @@
 				9F6236971823C8050075DFD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F6236981823C8050075DFD2 /* Build configuration list for PBXNativeTarget "FMDBStoreGeneratorSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +607,7 @@
 				9F62369A1823C8050075DFD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
