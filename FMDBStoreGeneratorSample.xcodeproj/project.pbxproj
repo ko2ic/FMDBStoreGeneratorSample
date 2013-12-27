@@ -21,17 +21,17 @@
 		9F6236B01823C8990075DFD2 /* FMDBStoreGeneratorSample-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F6236A51823C8990075DFD2 /* FMDBStoreGeneratorSample-Info.plist */; };
 		9F6236B11823C8990075DFD2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F6236A71823C8990075DFD2 /* Images.xcassets */; };
 		9F6236B21823C8990075DFD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6236A81823C8990075DFD2 /* main.m */; };
-		9F6236C61823C94B0075DFD2 /* KODatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6236B71823C94B0075DFD2 /* KODatabaseManager.m */; };
-		9F6236C71823C94B0075DFD2 /* KOStoreFmdbBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6236B91823C94B0075DFD2 /* KOStoreFmdbBase.m */; };
-		9F6236C81823C94B0075DFD2 /* KOTransactionService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6236BB1823C94B0075DFD2 /* KOTransactionService.m */; };
 		9F6236C91823C94B0075DFD2 /* KOOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6236BE1823C94B0075DFD2 /* KOOrder.m */; };
 		9F6236CA1823C94B0075DFD2 /* KOOrderDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6236C01823C94B0075DFD2 /* KOOrderDetail.m */; };
-		9F6236CB1823C94B0075DFD2 /* KOOrderDetailStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6236C31823C94B0075DFD2 /* KOOrderDetailStore.m */; };
-		9F6236CC1823C94B0075DFD2 /* KOOrderStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6236C51823C94B0075DFD2 /* KOOrderStore.m */; };
-		9F96E12B1826B4C70027EFC1 /* KOOrderService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F96E12A1826B4C70027EFC1 /* KOOrderService.m */; };
 		9F96E12D1826B8D60027EFC1 /* Sample.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 9F6236B41823C8FA0075DFD2 /* Sample.sqlite */; };
 		9F96E13418293D7B0027EFC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F96E13318293D7B0027EFC1 /* Main.storyboard */; };
 		9F96E13718293D9F0027EFC1 /* KOMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F96E13618293D9F0027EFC1 /* KOMainController.m */; };
+		9FCC9CA7186DA6D2002C2FFC /* KODatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCC9C9B186DA6D2002C2FFC /* KODatabaseManager.m */; };
+		9FCC9CA8186DA6D2002C2FFC /* KOStoreFmdbBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCC9C9D186DA6D2002C2FFC /* KOStoreFmdbBase.m */; };
+		9FCC9CA9186DA6D2002C2FFC /* KOTransactionService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCC9C9F186DA6D2002C2FFC /* KOTransactionService.m */; };
+		9FCC9CAA186DA6D2002C2FFC /* KOOrderService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCC9CA1186DA6D2002C2FFC /* KOOrderService.m */; };
+		9FCC9CAB186DA6D2002C2FFC /* KOOrderDetailStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCC9CA4186DA6D2002C2FFC /* KOOrderDetailStore.m */; };
+		9FCC9CAC186DA6D2002C2FFC /* KOOrderStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCC9CA6186DA6D2002C2FFC /* KOOrderStore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,25 +63,25 @@
 		9F6236A71823C8990075DFD2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9F6236A81823C8990075DFD2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9F6236B41823C8FA0075DFD2 /* Sample.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sample.sqlite; sourceTree = "<group>"; };
-		9F6236B61823C94B0075DFD2 /* KODatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KODatabaseManager.h; sourceTree = "<group>"; };
-		9F6236B71823C94B0075DFD2 /* KODatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KODatabaseManager.m; sourceTree = "<group>"; };
-		9F6236B81823C94B0075DFD2 /* KOStoreFmdbBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOStoreFmdbBase.h; sourceTree = "<group>"; };
-		9F6236B91823C94B0075DFD2 /* KOStoreFmdbBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOStoreFmdbBase.m; sourceTree = "<group>"; };
-		9F6236BA1823C94B0075DFD2 /* KOTransactionService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOTransactionService.h; sourceTree = "<group>"; };
-		9F6236BB1823C94B0075DFD2 /* KOTransactionService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOTransactionService.m; sourceTree = "<group>"; };
 		9F6236BD1823C94B0075DFD2 /* KOOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOOrder.h; sourceTree = "<group>"; };
 		9F6236BE1823C94B0075DFD2 /* KOOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOOrder.m; sourceTree = "<group>"; };
 		9F6236BF1823C94B0075DFD2 /* KOOrderDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOOrderDetail.h; sourceTree = "<group>"; };
 		9F6236C01823C94B0075DFD2 /* KOOrderDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOOrderDetail.m; sourceTree = "<group>"; };
-		9F6236C21823C94B0075DFD2 /* KOOrderDetailStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOOrderDetailStore.h; sourceTree = "<group>"; };
-		9F6236C31823C94B0075DFD2 /* KOOrderDetailStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOOrderDetailStore.m; sourceTree = "<group>"; };
-		9F6236C41823C94B0075DFD2 /* KOOrderStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOOrderStore.h; sourceTree = "<group>"; };
-		9F6236C51823C94B0075DFD2 /* KOOrderStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOOrderStore.m; sourceTree = "<group>"; };
-		9F96E1291826B4C70027EFC1 /* KOOrderService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOOrderService.h; sourceTree = "<group>"; };
-		9F96E12A1826B4C70027EFC1 /* KOOrderService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOOrderService.m; sourceTree = "<group>"; };
 		9F96E13318293D7B0027EFC1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = FMDBStoreGeneratorSample/Controls/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		9F96E13518293D9F0027EFC1 /* KOMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOMainController.h; sourceTree = "<group>"; };
 		9F96E13618293D9F0027EFC1 /* KOMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOMainController.m; sourceTree = "<group>"; };
+		9FCC9C9A186DA6D2002C2FFC /* KODatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KODatabaseManager.h; sourceTree = "<group>"; };
+		9FCC9C9B186DA6D2002C2FFC /* KODatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KODatabaseManager.m; sourceTree = "<group>"; };
+		9FCC9C9C186DA6D2002C2FFC /* KOStoreFmdbBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOStoreFmdbBase.h; sourceTree = "<group>"; };
+		9FCC9C9D186DA6D2002C2FFC /* KOStoreFmdbBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOStoreFmdbBase.m; sourceTree = "<group>"; };
+		9FCC9C9E186DA6D2002C2FFC /* KOTransactionService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOTransactionService.h; sourceTree = "<group>"; };
+		9FCC9C9F186DA6D2002C2FFC /* KOTransactionService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOTransactionService.m; sourceTree = "<group>"; };
+		9FCC9CA0186DA6D2002C2FFC /* KOOrderService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOOrderService.h; sourceTree = "<group>"; };
+		9FCC9CA1186DA6D2002C2FFC /* KOOrderService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOOrderService.m; sourceTree = "<group>"; };
+		9FCC9CA3186DA6D2002C2FFC /* KOOrderDetailStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOOrderDetailStore.h; sourceTree = "<group>"; };
+		9FCC9CA4186DA6D2002C2FFC /* KOOrderDetailStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOOrderDetailStore.m; sourceTree = "<group>"; };
+		9FCC9CA5186DA6D2002C2FFC /* KOOrderStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOOrderStore.h; sourceTree = "<group>"; };
+		9FCC9CA6186DA6D2002C2FFC /* KOOrderStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOOrderStore.m; sourceTree = "<group>"; };
 		E96525577C044390A20E8F1D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -145,12 +145,10 @@
 		9F6236691823C8050075DFD2 /* FMDBStoreGeneratorSample */ = {
 			isa = PBXGroup;
 			children = (
-				9F96E1281826B4C70027EFC1 /* Services */,
+				9FCC9C98186DA6D2002C2FFC /* Service */,
 				9F6236BC1823C94B0075DFD2 /* Models */,
-				9F6236C11823C94B0075DFD2 /* Stores */,
 				9F62369B1823C8990075DFD2 /* Controls */,
 				9F6236A91823C8990075DFD2 /* Views */,
-				9F6236B51823C94B0075DFD2 /* fmdb */,
 				9F6236A21823C8990075DFD2 /* Supporting Files */,
 			);
 			path = FMDBStoreGeneratorSample;
@@ -206,19 +204,6 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		9F6236B51823C94B0075DFD2 /* fmdb */ = {
-			isa = PBXGroup;
-			children = (
-				9F6236B61823C94B0075DFD2 /* KODatabaseManager.h */,
-				9F6236B71823C94B0075DFD2 /* KODatabaseManager.m */,
-				9F6236B81823C94B0075DFD2 /* KOStoreFmdbBase.h */,
-				9F6236B91823C94B0075DFD2 /* KOStoreFmdbBase.m */,
-				9F6236BA1823C94B0075DFD2 /* KOTransactionService.h */,
-				9F6236BB1823C94B0075DFD2 /* KOTransactionService.m */,
-			);
-			path = fmdb;
-			sourceTree = "<group>";
-		};
 		9F6236BC1823C94B0075DFD2 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -230,24 +215,39 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		9F6236C11823C94B0075DFD2 /* Stores */ = {
+		9FCC9C98186DA6D2002C2FFC /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				9F6236C21823C94B0075DFD2 /* KOOrderDetailStore.h */,
-				9F6236C31823C94B0075DFD2 /* KOOrderDetailStore.m */,
-				9F6236C41823C94B0075DFD2 /* KOOrderStore.h */,
-				9F6236C51823C94B0075DFD2 /* KOOrderStore.m */,
+				9FCC9CA0186DA6D2002C2FFC /* KOOrderService.h */,
+				9FCC9CA1186DA6D2002C2FFC /* KOOrderService.m */,
+				9FCC9C99186DA6D2002C2FFC /* Core */,
+				9FCC9CA2186DA6D2002C2FFC /* Stores */,
 			);
-			path = Stores;
+			path = Service;
 			sourceTree = "<group>";
 		};
-		9F96E1281826B4C70027EFC1 /* Services */ = {
+		9FCC9C99186DA6D2002C2FFC /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				9F96E1291826B4C70027EFC1 /* KOOrderService.h */,
-				9F96E12A1826B4C70027EFC1 /* KOOrderService.m */,
+				9FCC9C9A186DA6D2002C2FFC /* KODatabaseManager.h */,
+				9FCC9C9B186DA6D2002C2FFC /* KODatabaseManager.m */,
+				9FCC9C9C186DA6D2002C2FFC /* KOStoreFmdbBase.h */,
+				9FCC9C9D186DA6D2002C2FFC /* KOStoreFmdbBase.m */,
+				9FCC9C9E186DA6D2002C2FFC /* KOTransactionService.h */,
+				9FCC9C9F186DA6D2002C2FFC /* KOTransactionService.m */,
 			);
-			path = Services;
+			path = Core;
+			sourceTree = "<group>";
+		};
+		9FCC9CA2186DA6D2002C2FFC /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				9FCC9CA3186DA6D2002C2FFC /* KOOrderDetailStore.h */,
+				9FCC9CA4186DA6D2002C2FFC /* KOOrderDetailStore.m */,
+				9FCC9CA5186DA6D2002C2FFC /* KOOrderStore.h */,
+				9FCC9CA6186DA6D2002C2FFC /* KOOrderStore.m */,
+			);
+			path = Stores;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -387,15 +387,15 @@
 			files = (
 				9F6236AC1823C8990075DFD2 /* KOAppDelegate.m in Sources */,
 				9F6236C91823C94B0075DFD2 /* KOOrder.m in Sources */,
+				9FCC9CAC186DA6D2002C2FFC /* KOOrderStore.m in Sources */,
 				9F6236B21823C8990075DFD2 /* main.m in Sources */,
-				9F6236C81823C94B0075DFD2 /* KOTransactionService.m in Sources */,
-				9F6236C61823C94B0075DFD2 /* KODatabaseManager.m in Sources */,
+				9FCC9CAB186DA6D2002C2FFC /* KOOrderDetailStore.m in Sources */,
 				9F96E13718293D9F0027EFC1 /* KOMainController.m in Sources */,
-				9F96E12B1826B4C70027EFC1 /* KOOrderService.m in Sources */,
 				9F6236CA1823C94B0075DFD2 /* KOOrderDetail.m in Sources */,
-				9F6236CC1823C94B0075DFD2 /* KOOrderStore.m in Sources */,
-				9F6236CB1823C94B0075DFD2 /* KOOrderDetailStore.m in Sources */,
-				9F6236C71823C94B0075DFD2 /* KOStoreFmdbBase.m in Sources */,
+				9FCC9CA7186DA6D2002C2FFC /* KODatabaseManager.m in Sources */,
+				9FCC9CA9186DA6D2002C2FFC /* KOTransactionService.m in Sources */,
+				9FCC9CAA186DA6D2002C2FFC /* KOOrderService.m in Sources */,
+				9FCC9CA8186DA6D2002C2FFC /* KOStoreFmdbBase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
